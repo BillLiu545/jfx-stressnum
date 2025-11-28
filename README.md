@@ -3,3 +3,6 @@ This repository contains a Stress Number Detector made using JavaFX. The user ca
 
 # How does it work?
 The positive and negative feeling level numbers are initialized to 0. The user can increment or decrement them using buttons for increase/decrease from a scale of 1 to 10. In the file menu, the user can check the stress condition based on the difference between the positive and negative feeling numbers. There is also a function to reset these numbers back to 0.
+
+# Implementations
+One Stress Detector app, StressDetector, uses regular increment/decrement of integer values, while the other uses stack operations (push and pop).
