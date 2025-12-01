@@ -1,8 +1,5 @@
 # jfx-stressnum
 This repository contains a Stress Number Detector made using JavaFX. The user can record positive or negative feeling numbers by incrementing/decrementing them (on a scale of 1 to 10), and there is also an alert function to tell the stress condition based on the number.
 
-# How does it work?
-The positive and negative feeling level numbers are initialized to 0. The user can increment or decrement them using buttons for increase/decrease from a scale of 1 to 10. In the file menu, the user can check the stress condition based on the difference between the positive and negative feeling numbers. There is also a function to reset these numbers back to 0.
-
 # Implementations
-One Stress Detector app, StressDetector, uses regular increment/decrement of integer values, while the other uses stack operations (push and pop).
+There are three implementations of the Stress Number Detector. The first implementation, StressDetector, uses regular increment/decrement of integer values. The second implementation, StressDetector2, other uses stack operations (push and pop), while the third, uses a JFX pie chart. In the first and second implementations, the positive and negative feeling level numbers are initialized to 0. The user can increment or decrement them using buttons for increase/decrease from a scale of 1 to 10. In the file menu, the user can check the stress condition based on the difference between the positive and negative feeling numbers. There is also a function to reset these numbers back to 0. In the pie chart implementation, the values for positive and negative start at 50/50. The user can increase or decrease positive or negative values from 0 to 50, thus changing the pie chart.
